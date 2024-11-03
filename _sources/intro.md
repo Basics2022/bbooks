@@ -1,7 +1,7 @@
 (book:bbooks)=
 # basics books
 
-This is the main landing page of the [**basics** project].
+This is the main landing page of the **basics** project.
 
 The project will be first developed in Italian, at least for material targeting high-schools. Please, rely on the translator of your browser, or have a little patience waiting for translation, or - even better - feel free to contribute through [Github repos](https://github.com/Basics2022).
 
@@ -15,10 +15,10 @@ The project will be first developed in Italian, at least for material targeting 
 - [Economics](https://basics2022.github.io/bbooks-economics-hs) <span style="color:red">**todo**</span>
 ```
 
+<!-- - [Mathematics](https://basics2022.github.io/bbooks-math-miscellanea) **work-in-progress** -->
 ```{dropdown} University and more
 :open:
-- [Mathematics](https://basics2022.github.io/bbooks-math-miscellanea) **work-in-progress**
-  - ...
+- Mathematics <span style="color:red">**todo**</span>
 - Physics
   - [Classical mechanics](https://basics2022.github.io/bbooks-physics-mechanics) **work-in-progress**
   - [Classical thermodynamics](https://basics2022.github.io/bbooks-physics-thermodynamics) **work-in-progress**
