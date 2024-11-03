@@ -3,12 +3,13 @@
 
 This is the main landing page of the **basics** project.
 
-**High-school**
-- Mathematics
-- Physics
-- Introduction to programming
-- <span style="color:red">Economics</span>
-- <span style="color:red">Chemistry</span>
+```{dropdown} [High-school](https://basics2022.github.io/bbooks-hs)
+- [Introduction to programming](https://basics2022.github.io/bbooks-programming-hs)
+- [Mathematics](https://basics2022.github.io/bbooks-math-miscellanea-hs)
+- [Physics](https://basics2022.github.io/bbooks-physics-hs)
+- [Chemistry](https://basics2022.github.io/bbooks-chemistry-hs)
+- [Economics](https://basics2022.github.io/bbooks-economics-hs) **todo**
+```
 
 **University**
 - Mathematics
