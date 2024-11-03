@@ -5,6 +5,8 @@ This is the main landing page of the **basics** project.
 
 The project will be first developed in Italian, at least for material targeting high-schools. Please, rely on the translator of your browser, or have a little patience waiting for translation, or - even better - feel free to contribute through [Github repos](https://github.com/Basics2022).
 
+Material for university is likely to be a jupyter-book version of some hand-written notes already available at [](https://basics.altervista.org).
+
 ```{dropdown} [High-school](https://basics2022.github.io/bbooks-hs)
 :open:
 
