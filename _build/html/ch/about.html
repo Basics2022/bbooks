@@ -341,7 +341,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -357,6 +359,15 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#credits-and-license">Credits and License</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#timeline">Timeline</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -368,9 +379,20 @@ document.write(`
                   
   <div class="tex2jax_ignore mathjax_ignore section" id="about">
 <span id="bbooks-about"></span><h1>About<a class="headerlink" href="#about" title="Permalink to this heading">#</a></h1>
-<p><strong>Jupyter books for interactive open textbooks at TUDelft.</strong>
-On the 2024 Nov 13, I’ve found out that some people working at TUDelft are using the same approach for building an open textbook project, hosted on Gitlab, collecting books for university. I’m sure I’ll find some useful tips for this project, either in their manual or <a class="reference external" href="https://interactivetextbooks.tudelft.nl/open-textbooks-demonstration/index.html">demonstration with Jupyter books</a>, or browsing in their <a class="reference external" href="https://gitlab.tudelft.nl/opentextbooks">repo</a>.
+<div class="section" id="credits-and-license">
+<h2>Credits and License<a class="headerlink" href="#credits-and-license" title="Permalink to this heading">#</a></h2>
+<p>…<strong>todo</strong>…</p>
+</div>
+<div class="section" id="timeline">
+<h2>Timeline<a class="headerlink" href="#timeline" title="Permalink to this heading">#</a></h2>
+<p><strong>2024 Oct 10 - Initial commit of the bbooks-template.</strong></p>
+<p><strong>2024 Nov 13 - Jupyter books for interactive open textbooks at TUDelft.</strong>
+On the 2024 Nov 13, I’ve found out that some people working at TUDelft are using the same approach for building an open textbook project, hosted on <strong>Gitlab</strong>, collecting books for university. I’m sure I’ll find some useful tips for this project, either in their manual or <a class="reference external" href="https://interactivetextbooks.tudelft.nl/open-textbooks-demonstration/index.html">demonstration with Jupyter books</a>, or browsing in their <a class="reference external" href="https://gitlab.tudelft.nl/opentextbooks">repo</a>.
 Maybe I’ll contact them in the future, as soon as I have an English version of these documents.</p>
+<ul class="simple">
+<li><p>Should I move the project from Github to Gitlab? Why did I choose Github over Gitlab? I suspect there was some good reason to make this choice - that I’d have never done otherwise - but I can’t remember why…</p></li>
+</ul>
+</div>
 </div>
 
     <script type="text/x-thebe-config">
@@ -418,6 +440,21 @@ Maybe I’ll contact them in the future, as soon as I have an English version of
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#credits-and-license">Credits and License</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#timeline">Timeline</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
