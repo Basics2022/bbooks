@@ -3,7 +3,7 @@
 
 title: basics-books
 author: basics
-logo: logo.png
+logo: logo.svg
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -30,3 +30,22 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+
+# sphinx extensions
+sphinx:
+  config:
+    language: it
+    html_theme_options:
+      # repository_url:: https://github.com/Basics2022/bbooks-physics-hs  # Online location of your book
+      # use_repository_button: True
+      # use_edit_page_button: True
+      logo:
+        image_light: logo.svg
+        image_dark: logo-dark.svg
+    html_favicon: favicon.svg
+  extra_extensions:
+    - sphinx_proof
+    - sphinx_exercise
+    # - sphinx_togglebutton   # to be installed
+
+
