@@ -27,7 +27,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -47,7 +47,7 @@
      id="namedview4"
      showgrid="false"
      inkscape:zoom="9"
-     inkscape:cx="69.584041"
+     inkscape:cx="48.695152"
      inkscape:cy="26.078939"
      inkscape:window-x="72"
      inkscape:window-y="27"
@@ -69,20 +69,20 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'TeX Gyre Cursor';-inkscape-font-specification:'TeX Gyre Cursor';fill:#000000;stroke:#000000" /></flowRegion><flowPara
        id="flowPara823"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:66.66666412px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;stroke:#000000" /></flowRoot>  <circle
-     style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.07559055;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+     style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.07559055;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
      id="path908"
      cx="32.222221"
      cy="31.777777"
      r="32" />
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:9.64570427px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.44685578"
-     x="12.094848"
-     y="61.106972"
+     style="font-style:normal;font-weight:normal;font-size:9.39964485px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.40994692;"
+     x="13.032948"
+     y="60.375523"
      id="text817"><tspan
        sodipodi:role="line"
        id="tspan815"
-       x="12.094848"
-       y="61.106972"
-       style="font-weight:normal;font-size:77.1656723px;stroke-width:1.44685578">b</tspan></text>
+       x="13.032948"
+       y="60.375523"
+       style="font-weight:normal;font-size:75.19719696px;stroke:#ffffff;stroke-width:1.40994692;fill:#ffffff;">b</tspan></text>
 </svg>
