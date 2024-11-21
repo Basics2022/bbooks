@@ -8,7 +8,7 @@ The project will be first developed in Italian, at least for material targeting 
 Material for university is likely to be a jupyter-book version of some hand-written notes already available at [https://basics.altervista.org](https://basics.altervista.org).
 
 ```{dropdown} [High-school](https://basics2022.github.io/bbooks-hs)
-:open:
+<!-- :open: -->
 
 - [Introduction to programming](https://basics2022.github.io/bbooks-programming-hs) **work-in-progress**
 - [Mathematics](https://basics2022.github.io/bbooks-math-miscellanea-hs) **work-in-progress**
@@ -19,7 +19,8 @@ Material for university is likely to be a jupyter-book version of some hand-writ
 
 <!-- - [Mathematics](https://basics2022.github.io/bbooks-math-miscellanea) **work-in-progress** -->
 ```{dropdown} University and more
-:open:
+<!-- :open: -->
+
 - Mathematics <span style="color:red">**todo**</span>
 - Physics
   - [Classical mechanics](https://basics2022.github.io/bbooks-physics-mechanics) **work-in-progress**
