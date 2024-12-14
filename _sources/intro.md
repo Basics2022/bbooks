@@ -29,6 +29,7 @@ Material for university is likely to be a jupyter-book version of some hand-writ
   - [Continuum mechanics](https://basics2022.github.io/bbooks-physics-continuum-mechanics) **work-in-progress**
     - Solid mechanics <span style="color:red">**todo**</span> 
     - Fluid mechanics <span style="color:red">**todo**</span>
+  - [Modern physics](https://basics2022.github.io/bbooks-physics-modern) **work-in-progress**
 ```
 
 ```{dropdown} Insights
