@@ -15,6 +15,7 @@ Material for university is likely to be a jupyter-book version of some hand-writ
 - [Physics](https://basics2022.github.io/bbooks-physics-hs) **work-in-progress**
 - [Chemistry](https://basics2022.github.io/bbooks-chemistry-hs) **work-in-progress**
 - [Economics](https://basics2022.github.io/bbooks-economics-hs) <span style="color:red">**todo**</span>
+- [Philosopy](https://basics2022.github.io/bbooks-philosophy) <span style="color:red">**todo**</span>
 ```
 
 <!-- - [Mathematics](https://basics2022.github.io/bbooks-math-miscellanea) **work-in-progress** -->
