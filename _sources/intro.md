@@ -29,18 +29,15 @@ Material for university is likely to be a jupyter-book version of some hand-writ
 <!-- :open: -->
 **Mathematics**
 
-[**Mathematics**](https://basics2022.github.io/bbooks-math-miscellanea) **work-in-progress**
+- [**Mathematics**](https://basics2022.github.io/bbooks-math-miscellanea) **work-in-progress**
 
 **Physics**
-[**Classical mechanics**](https://basics2022.github.io/bbooks-physics-mechanics) **work-in-progress**
 
-[**Classical thermodynamics**](https://basics2022.github.io/bbooks-physics-thermodynamics) **work-in-progress**
-
-[**Classical electromagnetism**](https://basics2022.github.io/bbooks-physics-electromagnetism) **work-in-progress**
-
-[**Continuum mechanics**](https://basics2022.github.io/bbooks-physics-continuum-mechanics): introduction to continuum mechanics, solid mechanics, and fluid mechanics **work-in-progress**
-
-[**Modern physics**](https://basics2022.github.io/bbooks-physics-modern) **work-in-progress**
+- [**Classical mechanics**](https://basics2022.github.io/bbooks-physics-mechanics) **work-in-progress**
+- [**Classical thermodynamics**](https://basics2022.github.io/bbooks-physics-thermodynamics) **work-in-progress**
+- [**Classical electromagnetism**](https://basics2022.github.io/bbooks-physics-electromagnetism) **work-in-progress**
+- [**Continuum mechanics**](https://basics2022.github.io/bbooks-physics-continuum-mechanics): introduction to continuum mechanics, solid mechanics, and fluid mechanics **work-in-progress**
+- [**Modern physics**](https://basics2022.github.io/bbooks-physics-modern) **work-in-progress**
 
 ```
 
