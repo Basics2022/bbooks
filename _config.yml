@@ -50,7 +50,7 @@ sphinx:
       collapse_navigation: False
 #     navigation_depth: 2
       search_bar_position: sidebar
-    html_favicon: favicon.svg
+    html_favicon: favicon-sugar.svg
   extra_extensions:
     - sphinx_proof
     - sphinx_exercise
