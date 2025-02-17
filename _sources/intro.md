@@ -10,17 +10,12 @@ Material for university is likely to be a jupyter-book version of some hand-writ
 ```{dropdown} [High-school](https://basics2022.github.io/bbooks-hs)
 <!-- :open: -->
 
-[**Introduction to programming**](https://basics2022.github.io/bbooks-programming-hs) **work-in-progress**
-
-[**Mathematics**](https://basics2022.github.io/bbooks-math-miscellanea-hs) **work-in-progress**
-
-[**Physics**](https://basics2022.github.io/bbooks-physics-hs) **work-in-progress**
-
-[**Chemistry**](https://basics2022.github.io/bbooks-chemistry-hs) **work-in-progress**
-
-[**Economics**](https://basics2022.github.io/bbooks-economics-hs) <span style="color:red">**todo**</span>
-
-[**Philosopy**](https://basics2022.github.io/bbooks-philosophy) <span style="color:red">**todo**</span>
+- [**Introduction to programming**](https://basics2022.github.io/bbooks-programming-hs) **work-in-progress**
+- [**Mathematics**](https://basics2022.github.io/bbooks-math-miscellanea-hs) **work-in-progress**
+- [**Physics**](https://basics2022.github.io/bbooks-physics-hs) **work-in-progress**
+- [**Chemistry**](https://basics2022.github.io/bbooks-chemistry-hs) **work-in-progress**
+- [**Economics**](https://basics2022.github.io/bbooks-economics-hs) <span style="color:red">**todo**</span>
+- [**Philosopy**](https://basics2022.github.io/bbooks-philosophy) <span style="color:red">**todo**</span>
 
 ```
 
