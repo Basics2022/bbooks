@@ -178,6 +178,42 @@ line with the same slope.
 
 We can make the plot in {numref}`fig:free_energy_density` even more useful by making it interactive, letting students see how the plot changes if we change a parameter, *without* having access in the code. The interactive version is shown in the figure below.
 
+```{code-cell} ipyton3
+:tags: [hide-input]
+
+from plotly.subplots import make_subplots
+import plotly.graph_objects as go
+
+fig = make_subplots(rows=1, cols=2)
+
+fig.add_trace(
+    go.Scatter(x=[1, 2, 3], y=[4, 5, 6]),
+    row=1, col=1
+)
+
+fig.add_trace(
+    go.Scatter(x=[20, 30, 40], y=[50, 60, 70]),
+    row=1, col=2
+)
+
+sliders = [dict(
+    active=3,
+    currentvalue={"prefix": "a/b: "},
+    steps=range(5)
+)]
+
+fig.update_layout(
+    sliders=sliders,
+    legend_title="Legend",
+)
+fig.update_layout(height=600, width=800, title_text="Side By Side Subplots")
+
+fig
+# fig.show()
+
+
+```
+
 ```{code-cell} ipython3
 :tags: [hide-input]
 # [remove-input]

@@ -6,3 +6,4 @@ root: intro
 chapters:
 - file: ch/about
 - file: ch/test-interactive
+- file: ch/black-body-interactive
