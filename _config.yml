@@ -7,9 +7,22 @@ logo: logo.svg
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
-execute:
-  execute_notebooks: force
+parse:
+  myst_enable_extensions:
+    - dollarmath
+    - amsmath
+    - colon_fence
+    - deflist
+    - html_admonition
+    - html_image
+    - linkify
+    - substitution
+    - tasklist
+    - smartquotes
 
+execute:
+  execute_notebooks: auto
+  
 # Define the name of the latex output file for PDF builds
 latex:
   latex_documents:
@@ -35,6 +48,19 @@ html:
 sphinx:
   config:
     language: it
+    html_js_files:
+    - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js
+    - https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.1.0/dist/loading-attribute-polyfill.min.js
+    suppress_warnings: ["mystnb.unknown_mime_type"]
+#   mystnb_render_text_attachments: true
+#   mystnb_output_mime_priority:
+#     - application/vnd.plotly.v1+json
+#     - text/html
+#     - text/markdown
+#     - image/svg+xml
+#     - image/png
+#     - image/jpeg
+#     - text/plain_
     html_show_copyright: false
     html_theme_options:
       logo:
