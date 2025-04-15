@@ -73,7 +73,6 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="shortcut icon" href="../_static/favicon-sugar.svg"/>
     <link rel="index" title="Indice" href="../genindex.html" />
     <link rel="search" title="Cerca" href="../search.html" />
-    <link rel="prev" title="About" href="about.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="it"/>
   </head>
@@ -167,10 +166,9 @@ const thebe_selector_output = ".output, .cell_output"
 </a></div>
         <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
-        <ul class="current nav bd-sidenav">
+        <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="about.html">About</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Test interactive pages</a></li>
-
+<li class="toctree-l1"><a class="reference internal" href="todo.html"><span class="math notranslate nohighlight">\(\texttt{todo}\)</span> list</a></li>
 </ul>
 
     </div>
@@ -479,10 +477,10 @@ kernelspec:
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>5+10 = 15
 </pre></div>
 </div>
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x7f7a4ebe7fa0&gt;]
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x7fb2d61a8fa0&gt;]
 </pre></div>
 </div>
-<img alt="../_images/0f3087af586441cdf746a64a897e42c85dfac354daa809914498af95b536a11c.png" src="../_images/0f3087af586441cdf746a64a897e42c85dfac354daa809914498af95b536a11c.png" />
+<img alt="../_images/b7cdd8e25af2ad9e4ca4eb08da1e0d1fb85e2993a680b329ee92ded7b9d96759.png" src="../_images/b7cdd8e25af2ad9e4ca4eb08da1e0d1fb85e2993a680b329ee92ded7b9d96759.png" />
 </div>
 </div>
 </div>
@@ -490,9 +488,9 @@ kernelspec:
 <span id="ch-interactivemarkdown"></span><h1>Interactive content in MarkDown<a class="headerlink" href="#interactive-content-in-markdown" title="Permalink to this heading">#</a></h1>
 <div class="section" id="plots">
 <h2>Plots<a class="headerlink" href="#plots" title="Permalink to this heading">#</a></h2>
-<p>In a printed book, graphs can be included as figures. We can do the same in an online book, but we can also do much more. The simplest extension is to not create a figure file, which we then include, but to create the figure from code. The upshot of this approach is that students can see how the figure is made. For example, <a class="reference internal" href="#fig-free-energy-density"><span class="std std-numref">Fig. 1</span></a> below shows the van der Waals free energy density,</p>
+<p>In a printed book, graphs can be included as figures. We can do the same in an online book, but we can also do much more. The simplest extension is to not create a figure file, which we then include, but to create the figure from code. The upshot of this approach is that students can see how the figure is made. For example, <code class="xref std std-numref docutils literal notranslate"><span class="pre">fig:free_energy_density</span></code> below shows the van der Waals free energy density,</p>
 <div class="math notranslate nohighlight" id="equation-vdwfreeenergydensity">
-<span id="index-0"></span><span class="eqno">(1)<a class="headerlink" href="#equation-vdwfreeenergydensity" title="Permalink a questa equazione">#</a></span>\[
+<span id="index-0"></span><span class="eqno">()<a class="headerlink" href="#equation-vdwfreeenergydensity" title="Permalink a questa equazione">#</a></span>\[
 f_\mathrm{VdW}(\rho) = k_\mathrm{B} T \rho \left[\ln\left(\frac{\rho}{1-b \rho}\right) - 1\right] - a \rho^2,
 \]</div>
 <p>combined with the common tangent construction to obtain the densities of coexisting phases.</p>
@@ -614,14 +612,14 @@ f_\mathrm{VdW}(\rho) = k_\mathrm{B} T \rho \left[\ln\left(\frac{\rho}{1-b \rho}\
 </details>
 </div>
 <div class="figure align-default" id="fig-free-energy-density">
-<img alt="../_images/f74242c1f4f06ab4e9c38dc91fc141b09ef9d2f00d4ce00b22402f7339c0c82f.svg" src="../_images/f74242c1f4f06ab4e9c38dc91fc141b09ef9d2f00d4ce00b22402f7339c0c82f.svg" /><p class="caption"><span class="caption-number">Fig. 1 </span><span class="caption-text">The free energy density (red curve), with a “common tangent construction”
+<img alt="../_images/1741c4364067fb9f80a7ac7496b706d436b892a01cafdd8c02cfcf0ab415d789.svg" src="../_images/1741c4364067fb9f80a7ac7496b706d436b892a01cafdd8c02cfcf0ab415d789.svg" /><p class="caption"><span class="caption-text">The free energy density (red curve), with a “common tangent construction”
 (black straight line), connecting two points with the same slope, by a straight
 line with the same slope.</span><a class="headerlink" href="#fig-free-energy-density" title="Link a questa immagine">#</a></p>
 </div>
 </div>
 <div class="section" id="interactive-plots">
 <h2>Interactive plots<a class="headerlink" href="#interactive-plots" title="Permalink to this heading">#</a></h2>
-<p id="index-2">We can make the plot in <a class="reference internal" href="#fig-free-energy-density"><span class="std std-numref">Fig. 1</span></a> even more useful by making it interactive, letting students see how the plot changes if we change a parameter, <em>without</em> having access in the code. The interactive version is shown in the figure below.</p>
+<p id="index-2">We can make the plot in <code class="xref std std-numref docutils literal notranslate"><span class="pre">fig:free_energy_density</span></code> even more useful by making it interactive, letting students see how the plot changes if we change a parameter, <em>without</em> having access in the code. The interactive version is shown in the figure below.</p>
 <div class="cell tag_hide-input docutils container">
 <details class="hide above-input">
 <summary aria-label="Toggle hidden content">
@@ -1022,15 +1020,6 @@ ValueError:
                 <footer class="prev-next-footer">
                   
 <div class="prev-next-area">
-    <a class="left-prev"
-       href="about.html"
-       title="previous page">
-      <i class="fa-solid fa-angle-left"></i>
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">precedente</p>
-        <p class="prev-next-title">About</p>
-      </div>
-    </a>
 </div>
                 </footer>
               

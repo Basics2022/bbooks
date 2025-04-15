@@ -249,11 +249,9 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/filehook/filehook.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf
 INPUT /usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf
 INPUT /usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf
-INPUT /usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-italian.ldf
-INPUT /usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-italian.ldf
-INPUT /usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-italian.ldf
-INPUT /usr/share/texlive/texmf-dist/tex/latex/polyglossia/babelsh.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/polyglossia/babelsh.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-english.ldf
+INPUT /usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-english.ldf
+INPUT /usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-english.ldf
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fncychap/fncychap.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fncychap/fncychap.sty
 INPUT sphinx.sty
@@ -449,6 +447,10 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
 OUTPUT book.toc
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT book.ind
 INPUT book.ind
 INPUT book.aux

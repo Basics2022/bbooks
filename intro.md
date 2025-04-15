@@ -32,6 +32,7 @@ Material for university is likely to be a jupyter-book version of some hand-writ
 - [**Classical thermodynamics**](https://basics2022.github.io/bbooks-physics-thermodynamics) **work-in-progress**
 - [**Classical electromagnetism**](https://basics2022.github.io/bbooks-physics-electromagnetism) **work-in-progress**
 - [**Continuum mechanics**](https://basics2022.github.io/bbooks-physics-continuum-mechanics): introduction to continuum mechanics, solid mechanics, and fluid mechanics **work-in-progress**
+  - [**Fluid mechanics**](https://basics2022.github.io/bbooks-fluid-mechanics) **work-in-progress** Set of theory pills and exercises about an Introduction to Fluid Mechanics at BSc level (3rd year here in Italy), mainly focused on incompressible flows
 - [**Modern physics**](https://basics2022.github.io/bbooks-physics-modern) **work-in-progress**
 
 ```

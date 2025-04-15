@@ -5,5 +5,6 @@ format: jb-book
 root: intro
 chapters:
 - file: ch/about
-- file: ch/test-interactive
-- file: ch/black-body-interactive
+- file: ch/todo
+# - file: ch/test-interactive
+# - file: ch/black-body-interactive

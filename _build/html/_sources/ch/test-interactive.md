@@ -323,7 +323,12 @@ fig.update_xaxes(title_text=r'density $\rho$', range=[rho[0], rho[-1]])
 fig.update_yaxes(title_text=r'free energy density $f$', range=[-1, 0])
 
 fig
+
+
+
 ```
+
+
 
 Credit: Examples from Jos Zwanikken's online book for [NB2220 Statistical physics for Nanobiology](http://tnw-nb-open-courses.tudelft.nl/NB2220/), coded by Lukas de Kam.
 
