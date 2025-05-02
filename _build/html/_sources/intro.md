@@ -39,3 +39,6 @@ Material for university is likely to be a jupyter-book version of some hand-writ
 
 ```{dropdown} Insights
 ```
+
+<a href="https://twitter.com/example"><img src="path/to/twitter_icon.png" alt="Twitter" /></a>
+<a href="https://www.facebook.com/example"><img src="path/to/facebook_icon.png" alt="Facebook" /></a>

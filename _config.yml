@@ -43,6 +43,13 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+  extra_navbar: |
+    <a href="https://twitter.com/yourhandle" target="_blank" style="margin-right: 10px;">
+      <img src="https://cdn-icons-png.flaticon.com/24/733/733579.png" alt="Twitter" />
+    </a>
+    <a href="https://linkedin.com/in/yourprofile" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/24/174/174857.png" alt="LinkedIn" />
+    </a>
 
 # sphinx extensions
 sphinx:
@@ -76,10 +83,21 @@ sphinx:
       collapse_navigation: False
 #     navigation_depth: 2
       search_bar_position: sidebar
+      extra_footer: |
+        <a href="https://facebook.com/basicsfb/" target="_blank" style="margin-right: 10px;">
+          <img src="https://cdn-icons-png.flaticon.com/24/733/733547.png" alt="Facebook" />
+        </a>
+        <a href="https://instagram.com/basics.ig.2022/" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/24/2111/2111463.png" alt="Instagram" />
+        </a>
+#         <a href="https://twitter.com/yourhandle" target="_blank"> <img src="https://cdn-icons-png.flaticon.com/24/733/733579.png" alt="Twitter" /></a> 
+#     extra_footer: <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
     html_favicon: favicon-sugar.svg
   extra_extensions:
     - sphinx_proof
     - sphinx_exercise
+
+
     # - sphinx_togglebutton   # to be installed
 
 
